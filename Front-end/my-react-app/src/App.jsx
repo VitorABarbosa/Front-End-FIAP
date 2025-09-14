@@ -1,11 +1,12 @@
-import { SaudacaoClasse } from "./components/SaudacaoClasse";
-import SaudacaoFuncional from "./components/SaudacaoFuncional";
+import UsuarioInfo from "./components/UsuarioInfo";
+import ListaNumeros from "./components/ListaNumeros";
 export default function App() {
   return (
     <main style={{ fontFamily: "sans-serif", padding: 16 }}>
-      <h1>Comparativo de Componentes</h1>
-      <SaudacaoClasse />
-      <SaudacaoFuncional />
+      <h1>Estado com Objetos e Arrays</h1>
+      <UsuarioInfo />
+      <hr />
+      <ListaNumeros />
     </main>
   );
 }
